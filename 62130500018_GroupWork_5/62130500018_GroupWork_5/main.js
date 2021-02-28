@@ -37,7 +37,7 @@ const app = Vue.createApp({
       toggleView(image) {
         this.viewImg = this.image[image.no].url;
         this.hasView = true;
-        console.log(image);
+        
       },
       cancel() {
           this.form.search = !this.form.search
